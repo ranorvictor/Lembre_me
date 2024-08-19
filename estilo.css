@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+html,body{
+    height: 100%;
+}body{
+    background: url(fotos/padrao.png);
+    background-size: 300px;
+}label{
+    display: block;
+    padding: 10px;
+}
+.botao{
+    margin: 10px 38%;
+}#corp, #login{
+    background: white;
+    padding: 20px;
+    margin: auto;
+    width: 55%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}a{
+    text-decoration: none;
+    color: #3ca1e7;
+    margin: 10px
+}p{
+    text-align: center;
+}label{
+    text-align: center;
+}#cab > a:nth-child(3){
+    background: url(fotos/local.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+}#cab a{
+    font-size: 20px;
+    margin: 20px 5px;
+}
+#cab > a:nth-child(2){
+    background: url(fotos/evento.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+}#cab > a:nth-child(4){
+    background: url(fotos/niver.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 10px 0 10px 30px;
+}#cab > a:nth-child(5){
+    background: url(fotos/config.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 10px 0 10px 30px;
+}#cab > a:nth-child(1){
+    background: url(fotos/post.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 10px 0 10px 30px;
+}#cab > a:nth-child(6){
+    background: url(fotos/sair.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 10px 0 10px 30px;
+}h1{
+    background: white;
+    width: 55%;
+    margin: 20px auto 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 10px;
+    color: #3ca1e7;
+}#cab{
+    margin-bottom: 10px;
+}
+p{
+    display: inline;
+}h1 p{
+    font-size: 18px;
+    padding-left: 1%;
+}h1 div{
+    padding-left: 13%;
+    margin-bottom: 20px;
+}h1:hover{
+    background: #3ca1e7;
+    color: white;
+}
+h1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    float: left;
+    animation: cresca 1.5s 1;
+}@keyframes cresca{
+    0%{width:0; height: 0;margin-top: 50px; margin-left: 50px;}
+    100%{width:100px; height: 100px;margin-top: 0; margin-left: 0;}
+}form img{
+    width: 200px;
+    height: 200px;
+}h1{
+    text-align: center;
+}fieldset{
+    border-color: #ccc;
+}#login{
+    padding-top: 40px;
+}#post{
+    width: 75%;
+    height: 75%;
+    text-align: center;
+    margin: 20px auto;
+    background: #3ca1e7;
+    border-radius: 25px;
+    padding: auto;
+}#post img{
+    width: 80%;
+}#post a,#post p, #post h2{
+    color: white;
+}#post h2{
+    margin: 10px;
+    padding: 5px;
+}#post p{
+    display: block;
+}#post p, #post a{
+    display: block;
+    margin: 10px;
+}label{
+    text-align: center;
+}form{
+    text-align: center;
+}form p{
+    display: block;
+}#post a{
+    float: right;
+    margin-right: 20px;
+}#post a > img{
+    width: 20px;
+    height: 20px;
+}#corp p{
+    display: block;
+}#cat{
+    text-align: center;
+}table,th,td{
+    border: #0087e7 2px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}table{
+    margin: 10px auto;
+    width: 75%;
+}th{
+    color: white;
+    background: #3ca1e7;
+}table a img{
+    width: 20px;
+    height: 20px;
+}tr:nth-child(2n+1){
+    background: rgb(236, 236, 236);
+}#corp > a{
+    padding: 10px;
+}.local,.niver,.eventos{
+    background: #3ca1e7;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 10px;
+}.show,#mos,#ver{
+    display: none;
+}.local:hover .show,.niver:hover #mos,.eventos:hover #ver{
+    display: block;
+}.show a,.niver a,.eventos a{
+    color: white;
+}
+.local p:nth-child(2n+1),.niver p:nth-child(2n+1),.eventos p:nth-child(2n+1){
+    background: #5cafeb;
+    margin: 0;
+    padding: 10px;
+    border-radius: 25px;    
+}
+#prin,#princ{
+    font-weight: bolder;
+    background: #3ca1e7;
+}form img{
+    border-radius: 100%;
+}
